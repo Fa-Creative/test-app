@@ -1,28 +1,24 @@
 import React from 'react';
 import {
-  SafeAreaView, ScrollView, StatusBar, StyleSheet, Text,
+  SafeAreaView, StyleSheet, Text,
   View,
 } from 'react-native';
 import Home from "./Component/Home/Home";
-
-import { Header, } from 'react-native/Libraries/NewAppScreen';
-
 
 function App(): JSX.Element {
   return (
     <SafeAreaView >
 
       {/* <ScrollView> */}
-        {/* <Header /> */}
-        <View>
-          <Text> This is our first APP </Text>
-        </View>
-        <Home></Home>
+      {/* <Header /> */}
+      <View>
+        <Text> This is our first APP </Text>
+      </View>
+      <Home></Home>
       {/* </ScrollView> */}
     </SafeAreaView>
   );
 }
-
 const styles = StyleSheet.create({
   sectionContainer: {
     marginTop: 32,
