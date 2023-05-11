@@ -36,6 +36,7 @@ const styles = StyleSheet.create({
     paragraph: {
         fontSize: 15,
         opacity: 1,
-        color: "black"
+        color: "black",
+        padding: 20
     }
 })
